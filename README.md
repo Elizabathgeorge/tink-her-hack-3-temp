@@ -1,34 +1,33 @@
-# [Project Name] 🎯
+# [EVA Boutique] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Phoenix]
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [Elizabath George] - [scms school of technology and management]
+- Member 2: [Niranjana P M] -[Scms school of technology and management]
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+[https://67a82910bcc6fc1b9be4af7d--flourishing-bonbon-0a2c12.netlify.app/]
 
 ### Project Description
-[2-3 lines about what your project does]
+[EVA Boutique offers stylish ready-made dresses for kids and women, along with custom stitching services for a perfect fit. Our focus is on quality, elegance, and personalized fashion.]
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+[to solve the problem high price of product and giving a online option for stiching]
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+[affordable pricing of products with wide variety and create an option in the app for stiching which enable the users to use the option]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- [javascript]
 - [Frameworks used]
 - [Libraries used]
-- [Tools used]
+- [visual studio code, git]
 
 For Hardware:
 - [List main components]
@@ -47,14 +46,17 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot 2025-02-09 095654](https://github.com/user-attachments/assets/005205be-dea7-48d2-ae41-7c57cd3b8c22)
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+*cover page*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot 2025-02-09 095720](https://github.com/user-attachments/assets/467b1382-872a-4eb0-992d-a55ec860062e)
+
+*offers give by the boutique*
+
+!![Screenshot 2025-02-09 095810](https://github.com/user-attachments/assets/c5ec70cc-e167-493f-a48f-1b914d8ec801)
+
+*section of kids*
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -84,7 +86,7 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+[]
 *Explain what the video demonstrates*
 
 # Additional Demos
