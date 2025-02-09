@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVA Boutique</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <h1 style="text-align:center;">WELCOME TO EVA BOUTIQUE</h1>
+    
+    <!-- Book Stitching Button -->
+    <div class="book-stitching">
+        
+    </div>
+    
+    <!-- Stitching Form (Initially Hidden) -->
+    <div id="stitchingForm" class="stitching-form">
+        
+        <label for="size">Size:</label>
+        <input type="text" id="size" placeholder="Enter size">
+        
+        <label for="address">Address:</label>
+        <textarea id="address" placeholder="Enter your address"></textarea>
+        
+        <label for="date">Return Date:</label>
+        <input type="date" id="date">
+        
+        <label for="pattern">Pattern Details:</label>
+        <textarea id="pattern" placeholder="Enter pattern details"></textarea>
+        
+        <button onclick="submitStitchingForm()">Submit</button>
+        <button onclick="closeStitchingForm()">Close</button>
+    </div>
+    
+    
+    <script>
+        function openStitchingForm() {
+            document.getElementById("stitchingForm").style.display = "block";
+        }
+        function closeStitchingForm() {
+            document.getElementById("stitchingForm").style.display = "none";
+        }
+        function submitStitchingForm() {
+            alert("Stitching booked successfully!");
+            closeStitchingForm();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,406 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.bubble-items {
+    display: flex;
+    justify-content: space-evenly; /* Evenly distribute items */
+    align-items: center;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 5px 0;
+}
+
+.bubble-items a {
+    text-decoration: none;
+    color: black;
+    background: #ff8c00; /* Orange shade */
+    padding: 8px 12px;
+    border-radius: 50px; /* Makes it a bubble */
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    white-space: nowrap;
+}
+
+.bubble-items a:hover {
+    background: #e07b00; 
+    color: white;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    
+}
+.book-stitching-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: #d63384;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.book-stitching-btn:hover {
+    background-color: #b0276e;
+}
+.swiper-slide img {
+    max-width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+header {
+    background-color: #d63384; 
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2 {
+    color: #d63384; /* Boutique theme color */
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #ff66a3;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: #d63384;
+    border-radius: 5px;
+}
+
+/* Category Section */
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.category-item {
+    text-align: center;
+}
+
+.category-item img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.category-item p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d63384;
+}
+
+/* Offers Section */
+.offers {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.offer-item {
+    text-align: center;
+}
+
+.offer-item img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Brands Section */
+.brands {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.brands img {
+    width: 120px;
+    height: auto;
+}
+
+/* Call to Action (CTA) */
+.cta {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cta button {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta button:hover {
+    background-color: #b52d6e;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+.offers-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.offer-card {
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+.offer-card:hover {
+    transform: scale(1.05);
+}
+.offer-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.offer-card h3 {
+    margin: 15px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+.offer-card p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #777;
+}
+.offer-card .discount {
+    font-size: 1.2em;
+    color: #e74c3c;
+    font-weight: bold;
+}
+/* Center align the search bar */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+    width: 100%;
+}
+
+/* Style input field */
+.search-bar input {
+    padding: 10px;
+    width: 50%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center; /* Align text inside input */
+}
+
+/* Style search button */
+.search-bar button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Center align search results */
+#searchResults {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Style each search result */
+.search-item {
+    text-align: center;
+    width: 250px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image inside search results */
+.search-item img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 5px;
+}
+/* Style for vertical product layout */
+.product-column {
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items */
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Style for each product */
+.product {
+    width: 90%;
+    max-width: 300px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for images */
+.product img {
+    width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 5px;
+}
+
+/* Style for product name */
+.product-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style for price */
+.price {
+    font-size: 18px;
+    color: #ff4081;
+    font-weight: bold;
+}
+/* Style for vertical product layout */
+.product-column {
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items */
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Style for each product */
+.product {
+    width: 90%;
+    max-width: 300px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for images */
+.product img {
+    width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 5px;
+}
+
+/* Style for product name */
+.product-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style for price */
+.price {
+    font-size: 18px;
+    color: #ff4081;
+    font-weight: bold;
+}
+
+
+
+/* Buttons */
+.submit-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
+
+.close-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.close-btn:hover {
+    background-color: #c82333;
+}
